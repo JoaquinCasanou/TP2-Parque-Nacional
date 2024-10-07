@@ -19,6 +19,7 @@ header{
     width: 30%;
     margin-left: 1.5%;
     align-self: center;
+    height: 100%;
 }
 
 #imagenlogo{
@@ -29,7 +30,7 @@ header{
 }
 
 #logo{
-    width: 12.5%;
+    width: 15%;
     height: 70px;
     align-self: center;
     align-self: center;
@@ -41,10 +42,11 @@ header{
 #parque{
     font-size: 20px;
     margin-left: 3%;
+    width: 85%;
     align-self: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-self: center;
-
+    
 }
 
 
