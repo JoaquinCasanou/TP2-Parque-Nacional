@@ -84,3 +84,14 @@ nav ul{
     margin-left: 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+#cont-img-1{
+    width: 100%;
+    height: 250px;
+    margin-top: 25%;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+}
