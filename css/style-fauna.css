@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+}
+
+/*LOGO PARQUE NATURAL*/
+
+
+#logoparque{
+    display: flex;
+    width: 30%;
+    margin-left: 1.5%;
+    align-self: center;
+}
+
+#imagenlogo{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+
+}
+
+#logo{
+    width: 12.5%;
+    height: 70px;
+    align-self: center;
+    align-self: center;
+
+}
+
+
+
+#parque{
+    font-size: 20px;
+    margin-left: 3%;
+    align-self: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-self: center;
+
+}
+
+
+
+/*MENUUU*/
+nav{
+    width: 70%;
+    display: flex;
+
+    align-self: center;
+    justify-content: end;
+
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+#ul__menu{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.li__menu{
+    display: flex;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+/*BANNER*/
+
+
+#banner{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.container-image {
+  width: 100%;
+  position: relative;
+}
+
+.container-image img {
+  width: 100%;
+}
+
+.container-image::after {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to top, black, transparent);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#titulofauna{
+    margin-top: -15%;
+    margin-left: 8%;
+    position: absolute;
+    font-weight: bold;
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+}
+
+
+#tituloh1{
+    color: white;
+    font-size: 70px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+}
+
+
+#tituloh2{
+    color: white;
+    font-size: 50px;
+    margin-top: -1%;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+/*MAAAAAAAIIIIIN*/
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'fuentetituloespecies';
+    src: url('fonts/nombre-de-tu-fuente.woff') format('woff'),
+         url('fonts/nombre-de-tu-fuente.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+#contenedor__tituloespecies{
+    border-radius: 500px;
+    padding: 10px 20px;
+
+
+
+    background-color: green;
+    width: 19%;
+    margin-left: 8%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 5%;
+    height: 120px;
+    align-self: center;
+}
+
+
+
+#h1__tituloespecies{
+    margin-left: 10%;
+    font-size: 50px;
+    align-self: center;
+}
+
+
+#h2__titutloespecies{
+    align-self: center;
+    margin-left: 10%;
+    margin-top: -3s%;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARRAFOOO*/  
+
+#contenedor__especies{
+    width: 84%;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+}
