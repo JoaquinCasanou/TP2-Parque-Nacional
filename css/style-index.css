@@ -134,6 +134,9 @@ body{
     width: 100%;
     height: 5000px;
 }
+
+/*flora*/
+
 #cont__titulo-flora{
     margin-top: 2%;
     background-color: green;
@@ -142,10 +145,11 @@ body{
     border-radius: 50px;
     justify-content: center;
     display: flex;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 #cont__info-flora{
     background-color: green;
+    border-radius: 80px;
     width: 90%;
     height: 100%;
     display: flex;
@@ -171,8 +175,8 @@ body{
     width: 40%;
     height: 90%;
     display: flex;
-    padding: 0 5%;
-    
+    margin: 0 5%;
+
 }
 #img-flora{
     height: 100%;
@@ -180,5 +184,161 @@ body{
     padding-top: 5%;
 }
 #flora-titulo{
+    padding-top: 5%;
+}
+
+/*Fauna*/
+
+#cont__titulo-fauna{
+    margin-top: 2%;
+    background-color: brown;
+    height: 60px;
+    width: 10%;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+}
+#cont__info-fauna{
+    background-color: brown;
+    border-radius: 80px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+}
+#cont__cont-info-fauna{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 2%;
+}
+#cont__parraf-info-fauna{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    font-size: 17px;
+}
+#cont__imagen-fauna{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    padding: 0 5%;
+    
+}
+#img-fauna{
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+}
+#fauna-titulo{
+    padding-top: 5%;
+}
+
+/*Bioma*/
+
+#cont__titulo-bioma{
+    margin-top: 2%;
+    background-color: olive;
+    height: 60px;
+    width: 10%;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+}
+#cont__info-bioma{
+    background-color: olive;
+    border-radius: 80px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+}
+#cont__cont-info-bioma{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 2%;
+}
+#cont__parraf-info-bioma{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    font-size: 17px;
+}
+#cont__imagen-bioma{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    padding: 0 5%;
+    
+}
+#img-bioma{
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+}
+#bioma-titulo{
+    padding-top: 5%;
+}
+
+/*Clima*/
+
+#cont__titulo-clima{
+    margin-top: 2%;
+    background-color: lightblue;
+    height: 60px;
+    width: 10%;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+}
+#cont__info-clima{
+    background-color: lightblue;
+    border-radius: 80px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+}
+#cont__cont-info-clima{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 2%;
+}
+#cont__parraf-info-clima{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    font-size: 17px;
+}
+#cont__imagen-clima{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    padding: 0 5%;
+    
+}
+#img-clima{
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+}
+#clima-titulo{
     padding-top: 5%;
 }
