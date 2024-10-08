@@ -302,11 +302,14 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 20%;
+    height: 20%;
 }
 
 #imagen__zorrogrisespecies{
-    width: 10% ;
-    height: 20%;
+    width: 100% ;
+    height: 100%;
 }
 
 
