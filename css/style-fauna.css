@@ -462,6 +462,240 @@ nav ul{
 
 
 
+
+
+
+
+
+
+/*MAIN*/
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+      font-family: 'fuentetituloespecies';
+      src: url('fonts/nombre-de-tu-fuente.woff') format('woff'),
+           url('fonts/nombre-de-tu-fuente.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  
+  
+  
+  #contenedor__titulopeligro{
+      border-radius: 500px;
+      padding: 10px 20px;
+  
+  
+  
+      background-color: green;
+      width: 30%;
+      margin-left: 8%;
+      color: white;
+      font-family: "Inter", sans-serif;
+      margin-top: 5%;
+      height: 120px;
+      align-self: center;
+  }
+  
+
+
+
+  
+  
+  #h1__titulopeligro{
+      margin-left: 10%;
+      font-size: 50px;
+      margin-left: 4%;
+  }
+  
+  
+  #h2__titutlopeligro{
+      align-self: center;
+      margin-left: 5%;
+      margin-top: -3%;
+      font-size: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*PARRAFO*/  
+  
+  
+  /*Especies GRID*/
+  
+  
+  
+  #contenedor__especies{
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      display: flex;
+  
+  }
+  #contenedor__fondo-especies{
+      width: 84%;
+      border-radius: 90px;
+      margin-top: 5%;
+      background-color: grey;
+      display: flex;
+      justify-content: center;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #contenedor__gridespecies{
+      display: grid;
+      width: 92%;
+      height: 85%;
+  
+  
+      align-self: center;
+  
+  
+      justify-content: center;
+  
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr; 
+  
+      grid-template-areas: 
+      'parrafo fotoPrinc'
+      'parrafo2 parrafo2';
+  
+      grid-column-gap: 1px;
+      grid-row-gap: 1px;
+  }
+  
+  
+  
+  
+  #parrafo__texto2{
+      grid-area: parrafo2;
+      display: flex;
+      line-height: 2;
+  
+      
+  }
+  
+  
+  #contenedor__fotoespecies{
+      grid-area: fotoPrinc;
+      
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  #imagen__zorrogrisespecies{
+      width: 90% ;
+      height: 90%;
+      border-radius: 25px;
+  }
+  
+  
+  
+  
+  #contenedor__paraffoespecies{
+      grid-area: parrafo;
+      line-height: 2;
+  }
+  
+  #parrafo__texto{
+      line-height: 2;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  FOOTER*/
 
 
