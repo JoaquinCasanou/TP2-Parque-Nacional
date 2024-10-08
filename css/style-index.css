@@ -122,7 +122,6 @@ nav ul{
 }
 #cont__imagen-principal{
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: center;
 }
@@ -135,36 +134,35 @@ nav ul{
 .slider-box{
     width: 12080px;
     height: auto;
-    margin: 10px auto 0;
+    margin: 0 auto 0;
     overflow: hidden;
 }
 .slider-box ul{
     display: flex;
     padding: 0;
-    width: 500%;
-    height: 100%;
-    animation: slide 20s infinite alternate ease-in-out;
-    
-
-}    
+    width: 400%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
 .slider-box li{
     width: 100%;
     list-style: none;
     position: relative;
-
 }
-@keyframes slide {
-    0% { margin-left:  0%;}
-    20%{ margin-left:  0%;}
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
 
-    25%{ margin-left:  -100%;}
-    45%{ margin-left:  -100%;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
 
-    50%{ margin-left: -200%;}
-    70%{ margin-left: -200%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
 
-    75%{ margin-left: -300%;}
-    100%{ margin-left: -300%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+
+
 }
 
 body{
@@ -384,8 +382,8 @@ body{
 #fondo-mapa{
     margin-top: 8%;
     background-color: white;
-    width: 60%;
-    height: 800px;
+    width: 50%;
+    height: 940px;
 
 }
 #cont__fondo-mapa{
@@ -406,6 +404,7 @@ body{
 }
 #mapa{
     width: 90%;
+    height: 600px;
 }
 
 
@@ -471,9 +470,7 @@ body{
 
 
 
-
-
-    margin-top: 80%;
+    margin-top: 200px;
     width: 100%;
     height: 220px;
     display: grid;
