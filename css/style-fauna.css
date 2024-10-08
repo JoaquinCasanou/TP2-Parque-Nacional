@@ -248,13 +248,7 @@ nav ul{
 
 /*Especies GRID*/
 
-#contenedor__gridespecies{
-    display: grid;
 
-
-
-    
-}
 
 #contenedor__especies{
     width: 100%;
@@ -274,6 +268,54 @@ nav ul{
 }
 
 
+
+
+
+
+
+
+
+#contenedor__gridespecies{
+    display: grid;
+    width: 94%;
+    height: 85%;
+    background-color: blue;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+    'parrafo fotoPrinc'
+    'parrafo parrafo';
+
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+
+
+
+
+#contenedor__fotoespecies{
+    background-color: aqua;
+    grid-area: fotoPrinc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen__zorrogrisespecies{
+    width: 10% ;
+    height: 20%;
+}
+
+
+
+
+#contenedor__paraffoespecies{
+    background-color: brown;
+    grid-area: parrafo;
+}
 
 #parrafo__texto{
 
