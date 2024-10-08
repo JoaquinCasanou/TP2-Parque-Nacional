@@ -86,10 +86,11 @@ nav ul{
 }
 
 
-#cont-img-1{
+#cont-img1{
     width: 100%;
-    height: 250px;
-    margin-top: 25%;
+    height: 100%;
+    
+    grid-area: fotoPrinc;
 }
 #img1{
     width: 100%;
@@ -97,12 +98,148 @@ nav ul{
 }
 
 
+/*BANNER*/
+
+#grid-container-banner{
+    
+    width: 100%;
+    height: 880px;
+    background-color: blue;
+
+    
 
 
 
+    grid-template-areas: 
+    'fotoPinc';
+}
 
 
+#cont-titulo-flora{
+    height: 80%;
+    width: 20%;
+    margin-top: -15%;
+    margin-left: 10%;
 
+}
+#titulo-flora{
+    color: white;
+}
+
+#titulo-flora2{
+    color: white;
+}
+/*BANNER*/
+
+/*TEXTO*/
+#grid-container-texto{
+    
+    width: 100%;
+    height: 127px;
+    background-color: green;
+
+    
+    margin-top: -4%;
+    
+
+    grid-template-areas: 
+    'texto';
+
+}
+#cont-texto{
+    grid-area: texto;
+    justify-content: center;
+    margin: 4% 15% 0% 15%;
+}
+
+/*TEXTO*/
+
+/*BOSQUES DE RIBERA*/
+
+#grid-container1{
+    display: grid;
+    width: 100%;
+    height: 427px;
+    background-color: white;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas: 
+    'imgRibera textoRibera';
+
+}
+#cont-titulo-ribera{
+    margin-top: -12%;
+    margin-left: 5%;
+
+}
+#cont-imagen-ribera{
+    grid-area: imgRibera;
+}
+#cont-texto-ribera{
+    grid-area: textoRibera;
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+}
+#textoRibera{
+    font-size: 40px;
+    margin-left: 3%;
+    margin-top: 19%;
+}
+#img-ribera{
+    height: 100%;
+    width: 100%;
+}
+
+/*BOSQUES DE RIBERA*/
+
+/*VEGETACION DE HUMEDALES*/
+#grid-container2{
+    margin-top: 0.5%;
+
+    display: grid;
+    width: 100%;
+    height: 427px;
+    background-color: yellow;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas: 
+    'imgVegetacion textoVegetacion';
+}
+#cont-imagen-vegetacionDeHumedales{
+    width: 100%;
+    height: 100%;
+    grid-area: imgVegetacion;
+}
+#img-2{
+    height: 100%;
+    width: 100%;
+}
+#cont-texto-vegetacion{
+    grid-area: textoVegetacion;
+}
+#texto-vegetacion{
+    font-size: 40px;
+    margin-left: 3%;
+    margin-top: 19%;
+
+}
+#cont-titulo-vegetacion{
+    margin-top: -12%;
+    margin-left: 5%;
+
+}
+#titulo-2{
+    color: white;
+
+}
+
+
+/*VEGETACION DE HUMEDALES*/
 
 
 
@@ -173,11 +310,7 @@ nav ul{
 #footer{
     border-top: 5px solid rgb(170, 168, 168);
 
-
-
-
-
-    margin-top: 40%;
+    margin-top: 100%;
     width: 100%;
     height: 250px;
     display: grid;
