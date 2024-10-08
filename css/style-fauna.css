@@ -210,16 +210,16 @@ nav ul{
 
 
 
-#h1__tituloespecies{
+.h1__tituloespecies{
     margin-left: 10%;
     font-size: 50px;
-    align-self: center;
+    margin-left: 4%;
 }
 
 
-#h2__titutloespecies{
+.h2__titutloespecies{
     align-self: center;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: -3%;
     font-size: 30px;
 }
@@ -264,6 +264,7 @@ nav ul{
     margin-top: 5%;
     background-color: grey;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -277,57 +278,161 @@ nav ul{
 
 #contenedor__gridespecies{
     display: grid;
-    width: 94%;
+    width: 92%;
     height: 85%;
-    background-color: blue;
+
+
+    align-self: center;
+
+
+    justify-content: center;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
 
     grid-template-areas: 
     'parrafo fotoPrinc'
-    'parrafo parrafo';
+    'parrafo2 parrafo2';
 
-    grid-column-gap: 10px;
-    grid-row-gap: 20px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
 }
 
 
 
 
+#parrafo__texto2{
+    grid-area: parrafo2;
+    display: flex;
+    line-height: 2;
+
+    
+}
+
 
 #contenedor__fotoespecies{
-    background-color: aqua;
     grid-area: fotoPrinc;
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 20%;
-    height: 20%;
 }
 
 #imagen__zorrogrisespecies{
-    width: 100% ;
-    height: 100%;
+    width: 90% ;
+    height: 90%;
+    border-radius: 25px;
 }
 
 
 
 
 #contenedor__paraffoespecies{
-    background-color: brown;
     grid-area: parrafo;
+    line-height: 2;
 }
 
 #parrafo__texto{
-
+    line-height: 2;
 }
 
 
 
 
 
+
+
+
+
+
+/*Actividades AVES*/
+
+
+
+#contenedor__actividades{
+
+}
+
+
+#contenedor__titulo{
+    border-radius: 500px;
+    padding: 10px 20px;
+
+
+
+    background-color: green;
+    width: 25%;
+    margin-left: 8%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 5%;
+    height: 120px;
+    align-self: center;
+}
+
+
+
+
+#h2__tituloespeciesa{
+    color: white;
+    font-size: 30px;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+
+#contenedor__todoactividades{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+
+}
+
+#contenedor__texto{
+    background-color: blue;
+    width: 40%;
+    border-radius: 90px;
+    height: 600px;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 4%;
+    line-height: 2;
+}
+
+
+
+#contenedor__imagenactividades{
+    align-self: center;
+    background-color: blue;
+    width: 40%;
+    border-radius: 90px;
+    height: 500px;
+    display: flex;
+    margin-left: 1%;
+    margin-right: 8%;
+    justify-content: center;
+}
+
+
+#imagen__actividades{
+    width: 85%;
+    height: 85%;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#parrafo__actividades{
+    margin-left: 5%;
+    margin-right: 5%;
+    align-self: center;
+}
 
 
 
