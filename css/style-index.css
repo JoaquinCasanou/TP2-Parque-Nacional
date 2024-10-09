@@ -557,10 +557,17 @@ body{
     
 }
 
-.li__lifooter{
-    
+.li__lifooter:hover{
+    font-size: 20px;
 }
 
+.li__lifooter{
+    width: 20px;
+    height: 20px;
+
+
+    margin-left: -40px;
+}
 
 
 
@@ -595,7 +602,10 @@ body{
 }
 
 
-
+.imagenes__redes:hover{
+    width: 70px;
+    height: 70px;
+}
 
 
 
