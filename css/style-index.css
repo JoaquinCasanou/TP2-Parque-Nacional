@@ -191,7 +191,7 @@ body{
     background-color: burlywood;
     height: 75px;
     width: 17%;
-    
+    font-size: 30px;
     justify-content: center;
     display: flex;
     margin-left: 42%;
@@ -236,9 +236,7 @@ body{
     
 
 }
-#flora-titulo{
-    padding-top: 5%;
-}
+
 
 /*Fauna*/
 
@@ -247,7 +245,7 @@ body{
     background-color: burlywood;
     height: 75px;
     width: 17%;
-    
+    font-size: 30px;
     justify-content: center;
     display: flex;
     margin-left: 42%;
@@ -291,7 +289,6 @@ body{
 
 }
 #fauna-titulo{
-    padding-top: 5%;
 }
 
 /*Bioma*/
@@ -301,7 +298,7 @@ body{
     background-color: burlywood;
     height: 75px;
     width: 17%;
-    
+    font-size: 30px;
     justify-content: center;
     display: flex;
     margin-left: 42%;
@@ -344,7 +341,6 @@ body{
 
 }
 #bioma-titulo{
-    padding-top: 5%;
 }
 
 /*Clima*/
@@ -354,7 +350,7 @@ body{
     background-color: burlywood;
     height: 75px;
     width: 17%;
-    
+    font-size: 30px;
     justify-content: center;
     display: flex;
     margin-left: 42%;
@@ -397,7 +393,6 @@ body{
 
 }
 #clima-titulo{
-    padding-top: 5%;
 }
 
 #fondo-mapa{
