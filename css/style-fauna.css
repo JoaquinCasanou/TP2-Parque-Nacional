@@ -255,18 +255,6 @@ a{
 
 
 
-.li__lifooter:hover{
-    font-size: 20px;
-}
-
-.li__lifooter{
-    width: 20px;
-    height: 20px;
-
-
-    margin-left: -40px;
-}
-
 
 
 
@@ -837,4 +825,18 @@ a{
 
 #parrafo__copyright{
 
+}
+
+
+
+.li__lifooter:hover{
+    font-size: 20px;
+}
+
+.li__lifooter{
+    width: 20px;
+    height: 20px;
+
+
+    margin-left: -40px;
 }
