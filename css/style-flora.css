@@ -475,6 +475,140 @@ nav ul{
     }
     
 
+    #grid-container-ribera{
+        display: grid;
+        width: 90%;
+        height: 1150px;
+        align-self: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
+    
+    
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+        grid-template-areas: 
+        'ribera'
+        'textoRibera';
+    
+    
+    }
+    #cont-ribera{
+        grid-area: ribera ;
+        background-color: beige;
+        height: 300px;
+        width: 100%;
+    
+    
+    }
+    #cont-texto-ribera{
+        width: 100%;
+        height: 100%;
+        background-color: beige;
+        line-height: 1.5;
+        border-radius: 30px;
+        grid-area: textoRibera;
+    }
+
+
+
+    #grid-container-vegetacion{
+        display: grid;
+        width: 90%;
+        height: 700px;
+        align-self: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
+    
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    
+        grid-template-areas: 
+        'vegetacion'
+        'textoVegetacion';
+    
+    }
+    
+    #cont-vegetacion{
+        grid-area: vegetacion ;
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 300px;
+    }
+    #cont-texto-vegetacion{
+        width: 100%;
+        height: 100%;
+        background-color: blanchedalmond;
+        line-height: 1.5;
+        border-radius: 30px;
+        grid-area: textoVegetacion;
+    }
+        
+   
+    
+
+    #cont-titulo-vegetacion{
+        margin-top: -35%;
+        margin-left: 10%;
+        
+    }
+
+
+
+
+    #grid-container-praderas{
+        display: grid;
+        width: 90%;
+        height: 1200px;
+        align-self: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
+    
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        
+    
+    
+    
+        grid-template-areas: 
+        'pradera'
+        'textoPraderas';
+    
+    }
+    
+    #cont-pradera{
+        grid-area: pradera ;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        width: 100%;
+        height: 300px;
+    }
+
+    #cont-texto-pradera{
+        width: 100%;
+        height: 100%;
+        background-color: blanchedalmond;
+        grid-area: textoPraderas;
+        line-height: 1.5;
+        border-radius: 30px;
+    }
+
+
+
+    #cont-titulo-pradera{
+        margin-top: -32%;
+        margin-left: 10%;
+        
+    }
+
 }
     
     
