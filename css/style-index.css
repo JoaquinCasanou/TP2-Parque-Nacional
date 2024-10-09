@@ -205,6 +205,17 @@ body{
 
 /*flora*/
 
+#cont-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+    grid-template-areas: 
+    'tituloFlora tituloFlora'
+    'parrafFlora imagenFlora';
+}
+
 #cont__titulo-flora{
     margin-top: 6%;
     background-color: burlywood;
@@ -214,6 +225,7 @@ body{
     justify-content: center;
     display: flex;
     margin-left: 42%;
+    grid-area: tituloFlora;
 }
 #cont__info-flora{
 
@@ -232,32 +244,42 @@ body{
     margin-top: 2%;
 }
 #cont__parraf-info-flora{
-    width: 40%;
+    width: 70%;
     height: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 0 5%;
+
+    padding: 0 12% 0  18%;
     font-size: 17px;
     line-height: 1.3;
+    grid-area: parrafFlora;
 }
 #cont__imagen-flora{
-    width: 35%;
+    width: 70%;
     height: 100%;
     display: flex;
     margin: 0 5%;
+    grid-area: imagenFlora;
 
 }
 #img-flora{
     height: 90%;
     width: 100%;
-    padding: 5% 0 5% 0;
+
     
 
 }
 
 
 /*Fauna*/
+#cont-grid-fauna{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+    grid-template-areas: 
+    'tituloFauna tituloFauna'
+    'parrafFauna imagenFauna';
+}
 
 #cont__titulo-fauna{
     margin-top: 6%;
@@ -268,6 +290,7 @@ body{
     justify-content: center;
     display: flex;
     margin-left: 42%;
+    grid-area: tituloFauna;
 }
 #cont__info-fauna{
     width: 75%;
@@ -277,41 +300,44 @@ body{
     margin-top: 2%;
 
 }
-#cont__cont-info-fauna{
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    height: 500px;
-    margin-top: 2%;
-}
+
 #cont__parraf-info-fauna{
-    width: 40%;
+    width: 70%;
     height: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 0 5%;
+    
+    padding: 10% 12% 0  18%;
     font-size: 17px;
     line-height: 1.3;
+    grid-area: parrafFauna;
 }
 #cont__imagen-fauna{
-    width: 35%;
+    width: 70%;
     height: 100%;
     display: flex;
     margin: 0 5%;
+    grid-area: imagenFauna;
     
 }
 #img-fauna{
     height: 90%;
     width: 100%;
-    padding: 5% 0 5% 0;
+
 
 }
 #fauna-titulo{
 }
 
 /*Bioma*/
+#grid-bioma{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 
+    grid-template-areas: 
+    'tituloBioma tituloBioma'
+    'parrafBioma imagenBioma';
+}
 #cont__titulo-bioma{
     margin-top: 6%;
     background-color: burlywood;
@@ -321,6 +347,8 @@ body{
     justify-content: center;
     display: flex;
     margin-left: 42%;
+    grid-area: tituloBioma;
+    margin-bottom: 5%;
 }
 #cont__info-bioma{
     margin-top: 2%;
@@ -338,25 +366,25 @@ body{
     margin-top: 2%;
 }
 #cont__parraf-info-bioma{
-    width: 40%;
+    width: 70%;
     height: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding: 0 5%;
+
+    padding: 0 12% 0  18%;
     font-size: 17px;
-    line-height: 1.25;
+    line-height: 1.3;
+    grid-area: parrafBioma;
 }
 #cont__imagen-bioma{
-    width: 35%;
+    width: 70%;
     height: 100%;
     display: flex;
     margin: 0 5%;
+    grid-area: imagenBioma;
     
 }
 #img-bioma{
     width: 100%;
-    padding: 5% 0 5% 0;
+    padding: 0 0 5% 0;
 
 }
 #bioma-titulo{
@@ -364,6 +392,16 @@ body{
 
 /*Clima*/
 
+#grid-clima{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+    grid-template-areas: 
+    'tituloClima tituloClima'
+    'parrafClima imagenClima';
+}
 #cont__titulo-clima{
     margin-top: 6%;
     background-color: burlywood;
@@ -373,6 +411,7 @@ body{
     justify-content: center;
     display: flex;
     margin-left: 42%;
+    grid-area: tituloClima;
 }
 #cont__info-clima{
     margin-top: 2%;
@@ -390,20 +429,21 @@ body{
     margin-top: 2%;
 }
 #cont__parraf-info-clima{
-    width: 40%;
+    width: 70%;
     height: 100%;
-    justify-content: center;
     display: flex;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 12% 0  18%;
     font-size: 17px;
-    line-height: 1.25;
+    line-height: 1.3;
+    grid-area: parrafClima;
 }
 #cont__imagen-clima{
-    width: 35%;
+    width: 70%;
     height: 100%;
     display: flex;
     margin: 0 5%;
+    grid-area: imagenClima;
     
 }
 #img-clima{
@@ -622,3 +662,4 @@ body{
 #parrafo__copyright{
     font-size: 17px;
 }
+
