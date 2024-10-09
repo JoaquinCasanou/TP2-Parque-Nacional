@@ -10,7 +10,10 @@ header{
     width: 100%;
     background-color: white;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /*LOGO PARQUE NATURAL*/
 
 
@@ -95,6 +98,9 @@ nav ul{
 #img1{
     width: 100%;
     height: 100%;
+}
+.li__menu:hover{
+    font-size: 25px;
 }
 
 /*BANNER*/
@@ -454,6 +460,22 @@ nav ul{
     }
 
 
+
+    #contenedor__parques{
+        font-size: 16px;
+    }
+    #contenedor__redessociales{
+        font-size: 12px;
+    }
+
+    .imagenes__redes{
+        width: 30px;
+        height: 5%;
+    }
+    
+
+
+
 }
 
 
@@ -547,11 +569,13 @@ nav ul{
 
 
 #footer{
-    border-top: 5px solid rgb(170, 168, 168);
+    border-top: 3px solid rgb(170, 168, 168);
 
-    margin-top: 6%;
+
+
+    margin-top: 200px;
     width: 100%;
-    height: 250px;
+    height: 220px;
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr;
@@ -572,9 +596,9 @@ nav ul{
 #contenedor__parques{
     grid-area: parques;
 
-    margin-top: 2%;
+    margin-top: 3%;
 
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
 }
@@ -586,8 +610,8 @@ nav ul{
 
 
 #contenedor__footerlistado{
-    margin-top: 2%;
-
+    margin-top: 3%;
+    font-size: 17px;
     grid-area: listado;
 
     display: flex;
@@ -598,10 +622,17 @@ nav ul{
     
 }
 
-.li__lifooter{
-    
+.li__lifooter:hover{
+    font-size: 20px;
 }
 
+.li__lifooter{
+    width: 20px;
+    height: 20px;
+
+
+    margin-left: -40px;
+}
 
 
 
@@ -615,7 +646,7 @@ nav ul{
 
 #contenedor__redessociales{
     grid-area: redes;
-    
+    margin-top: 2%;
     flex-direction: column;
 
 }
@@ -636,7 +667,10 @@ nav ul{
 }
 
 
-
+.imagenes__redes:hover{
+    width: 70px;
+    height: 70px;
+}
 
 
 
@@ -651,5 +685,6 @@ nav ul{
 
 
 #parrafo__copyright{
-
+    font-size: 17px;
 }
+
