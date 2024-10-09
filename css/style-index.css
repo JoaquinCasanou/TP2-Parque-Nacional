@@ -68,8 +68,7 @@ nav ul{
 #ul__menu{
     width: 100%;
     display: flex;
-    text-decoration: none;
-
+    height: 30px;
 }
 
 .li__menu{
@@ -81,10 +80,14 @@ nav ul{
     margin-right: 2%;
     margin-left: 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
-#cont-banner{
-    width: 100%;
-    height: 660px;
+.li__menu:hover{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 #img-banner{
     width: 100%;
@@ -96,10 +99,21 @@ nav ul{
     padding-left: 15%;
     width: 30%;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    animation: desplazar 2s ;
+}
+@keyframes desplazar{
+    from{ 
+        left: -20%;
+    }to{
+        left: 0;
+    }
 }
 #titulo{
     font-size: 50px;
+
 }
+
 #substitulo{
     margin-top: 3%;
     font-size: 25px;
@@ -109,7 +123,7 @@ nav ul{
     height: 200px;
     display: flex;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 #cont__parraf-descripcion-principal{
     width: 45%;
@@ -131,8 +145,11 @@ nav ul{
     width: 45%;
     height: 100%;
     padding-top: 3%;
-    
+
 }
+
+    
+
 #cont__imagen-principal{
     width: 100%;
     display: flex;
@@ -142,6 +159,8 @@ nav ul{
     height: 100%;
     width: 100%;
     object-fit:cover;
+
+    
 }
 
 .slider-box{
@@ -485,7 +504,7 @@ body{
 
 
 #footer{
-    border-top: 5px solid rgb(170, 168, 168);
+    border-top: 3px solid rgb(170, 168, 168);
 
 
 
@@ -512,9 +531,9 @@ body{
 #contenedor__parques{
     grid-area: parques;
 
-    margin-top: 2%;
+    margin-top: 3%;
 
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
 }
@@ -526,8 +545,8 @@ body{
 
 
 #contenedor__footerlistado{
-    margin-top: 2%;
-    font-size: 15px;
+    margin-top: 3%;
+    font-size: 17px;
     grid-area: listado;
 
     display: flex;
@@ -555,7 +574,7 @@ body{
 
 #contenedor__redessociales{
     grid-area: redes;
-    
+    margin-top: 2%;
     flex-direction: column;
 
 }
@@ -591,5 +610,5 @@ body{
 
 
 #parrafo__copyright{
-
+    font-size: 17px;
 }
