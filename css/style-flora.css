@@ -97,14 +97,13 @@ nav ul{
     height: 100%;
 }
 
-
 /*BANNER*/
 
 #grid-container-banner{
     
     width: 100%;
-    height: 880px;
-    background-color: blue;
+    height: 500px;
+    background-color: white;
 
     
 
@@ -118,16 +117,18 @@ nav ul{
 #cont-titulo-flora{
     height: 80%;
     width: 20%;
-    margin-top: -15%;
+    margin-top: -20%;
     margin-left: 10%;
 
 }
 #titulo-flora{
     color: white;
+    font-size: 90px;
 }
 
 #titulo-flora2{
     color: white;
+    font-size: 30px;
 }
 /*BANNER*/
 
@@ -135,13 +136,13 @@ nav ul{
 #grid-container-texto{
     
     width: 100%;
-    height: 127px;
-    background-color: green;
+    height: 167px;
+    background-color: rgb(160, 164, 165);
 
     
-    margin-top: -4%;
+    margin-top: -3%;
     
-
+    
     grid-template-areas: 
     'texto';
 
@@ -149,7 +150,11 @@ nav ul{
 #cont-texto{
     grid-area: texto;
     justify-content: center;
-    margin: 4% 15% 0% 15%;
+    
+}
+#texto{
+    margin: 5% 25% 5% 25%;
+    font-size: 85%;
 }
 
 /*TEXTO*/
@@ -171,14 +176,16 @@ nav ul{
     grid-template-rows: 1fr; 
 
 
-
+    margin-top: 1%;
 
     grid-template-areas: 
     'ribera textoRibera';
 
+
 }
 #cont-ribera{
     grid-area: ribera ;
+    background-color: beige;
 }
 #cont-img-ribera{
     height: 100%;
@@ -187,6 +194,11 @@ nav ul{
 #img-ribera{
     height: 100%;
     width: 100%;
+    border-radius: 30px;
+    
+}
+#img-ribera:hover{
+    opacity: 0.8;
 }
 #cont-titulo-ribera{
     margin-top: -12%;
@@ -203,8 +215,11 @@ nav ul{
     height: 100%;
     background-color: beige;
     
+    
 
 }
+
+
 #texto-ribera{
     font-size: 28px;
     margin-left: 12%;
@@ -225,7 +240,7 @@ nav ul{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr; 
 
-
+    margin-top: 1%;
 
 
     grid-template-areas: 
@@ -235,6 +250,7 @@ nav ul{
 
 #cont-vegetacion{
     grid-area: vegetacion ;
+    background-color: blanchedalmond;
 }
 #cont-img-vegetacion{
     height: 100%;
@@ -243,6 +259,11 @@ nav ul{
 #img-vegetacion{
     height: 100%;
     width: 100%;
+    border-radius: 30px;
+}
+
+#img-vegetacion:hover{
+    opacity: 0.8;
 }
 #cont-titulo-vegetacion{
     margin-top: -12%;
@@ -266,7 +287,7 @@ nav ul{
     font-size: 28px;
     margin-left: 12%;
     margin-right: 12%;
-    margin-top: 8%;
+    margin-top: 15%;
 }
 /* VEGETACION*/
 
@@ -281,6 +302,7 @@ nav ul{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr; 
 
+    margin-top: 1%;
 
 
 
@@ -291,6 +313,7 @@ nav ul{
 
 #cont-pradera{
     grid-area: pradera ;
+    background-color: blanchedalmond;
 }
 #cont-img-pradera{
     height: 100%;
@@ -299,6 +322,11 @@ nav ul{
 #img-pradera{
     height: 100%;
     width: 100%;
+    border-radius: 30px;
+}
+
+#img-pradera:hover{
+    opacity: 0.8;
 }
 #cont-titulo-pradera{
     margin-top: -12%;
@@ -323,7 +351,7 @@ nav ul{
     font-size: 28px;
     margin-left: 12%;
     margin-right: 12%;
-    margin-top: 8%;
+    margin-top: 24%;
 }
 
 
@@ -384,7 +412,7 @@ nav ul{
 #footer{
     border-top: 5px solid rgb(170, 168, 168);
 
-    margin-top: 100%;
+    margin-top: 6%;
     width: 100%;
     height: 250px;
     display: grid;
