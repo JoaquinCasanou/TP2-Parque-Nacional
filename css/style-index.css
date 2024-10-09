@@ -492,7 +492,7 @@ body{
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     #cont-grid{
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: 0.5fr 2fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
     'tituloBioma'
@@ -572,7 +572,7 @@ body{
     }
 
     #cont-grid-fauna{
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: 0.5fr 2fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
     'tituloFauna'
@@ -613,7 +613,7 @@ body{
     }
 
     #grid-bioma{
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: 0.5fr 2fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
     'tituloBioma'
@@ -653,7 +653,7 @@ body{
         font-size: 25px;
     }
     #grid-clima{
-        grid-template-rows: 1fr 2fr 2fr;
+        grid-template-rows: 0.5fr 2fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
     'tituloClima'
@@ -698,12 +698,24 @@ body{
         width: 70%; 
     }
     #cont__mapa{
-        height: 510px;
+        height: 450px;
     }
     #mapa{
         height: 100%;
     }
+
     
+    #contenedor__parques{
+        font-size: 16px;
+    }
+    #contenedor__redessociales{
+        font-size: 12px;
+    }
+
+    .imagenes__redes{
+        width: 30px;
+        height: 5%;
+    }
 }
   
     
