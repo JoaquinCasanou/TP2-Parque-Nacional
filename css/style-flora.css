@@ -10,7 +10,10 @@ header{
     width: 100%;
     background-color: white;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /*LOGO PARQUE NATURAL*/
 
 
@@ -96,6 +99,9 @@ nav ul{
     width: 100%;
     height: 100%;
 }
+.li__menu:hover{
+    font-size: 25px;
+}
 
 /*BANNER*/
 
@@ -149,7 +155,7 @@ nav ul{
     border-radius: 90px;
 }
 #cont-texto{
-    height: 40%;
+    height: 100%;
     width: 100%;
     grid-area: texto;
     justify-content: center;
@@ -164,6 +170,7 @@ nav ul{
     margin: 01% 25% 5% 25%;
     font-size: 85%;
     align-content: center;
+
 }
 
 /*TEXTO*/
@@ -300,6 +307,7 @@ nav ul{
     background-color: blanchedalmond;
     line-height: 1.5;
     border-radius: 30px;
+    grid-area: textoVegetacion;
     
 
 }
@@ -398,80 +406,79 @@ nav ul{
 
 
 
-@media  screen and (max-width: 767px) and (min-width:320px) {
+@media  screen and (max-width: 767px) and (min-width:320px){
     
     *{
         margin: 0;
         padding: 0;
     }
     
-    
-    header{
-        display: flex;
-        flex-direction: column;
-        height: 90px;
-        width: 100%;
-        background-color: white;
+    #cont__titulos-banner{
+        margin-top: -22%;
     }
-    nav{
-        width: 100%;
-        display: flex;
-    
-        align-self: center;
-        justify-content: left;
-    
+    #logo{
+        width: 50%;
+        height: 50%;
+    }
+    #parque{
+        font-size: 12px;
+    }
+    .li__menu{
+        font-size: 10px;
+        width: 20%;
     }
     nav ul{
-        width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
+   
     }
-    
-    
     #ul__menu{
         width: 100%;
         display: flex;
-        text-decoration: none;
-    
-    }
-    
-    .li__menu{
-        display: flex;
-        height: 100%;
-        width: 10%;
+        align-items: center;
         justify-content: center;
+    }
+    #grid-container-banner{
+        height: 20%;
+    }
+    #titulo-flora{
+        font-size: 30px;
+    }
+    #titulo-flora2{
         font-size: 20px;
-        margin-right: 2%;
-        margin-left: 2%;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-    #menu-info{
-        margin-left: -10%;
+    #cont-titulo-flora{
+        margin-top: -35%;
+        width: 60%;
     }
-    #menu-fauna{
-        margin-left: 10%;
+    #grid-container-texto{
+        margin-top: 12%;
     }
-    #menu-flora{
-        margin-left: 20%;
+    #cont-texto{
+
     }
-    #menu-visita{
-        margin-right: 10%;
+    #texto{
+        font-size: 8px;
+        margin: 5% 10% 5% 13%;
     }
-    #menu-actividades{
-        margin-right: 1%;
+
+
+
+    #contenedor__parques{
+        font-size: 16px;
+    }
+    #contenedor__redessociales{
+        font-size: 12px;
+    }
+
+    .imagenes__redes{
+        width: 30px;
+        height: 5%;
     }
     
-    
-    
-    
-    
-    
-    
-    
+
     #grid-container-ribera{
         display: grid;
         width: 90%;
-        height: 85%;
+        height: 1150px;
         align-self: center;
         justify-content: center;
         grid-template-columns: 1fr;
@@ -491,7 +498,10 @@ nav ul{
     #cont-ribera{
         grid-area: ribera ;
         background-color: beige;
-        
+        height: 300px;
+        width: 100%;
+    
+    
     }
     #cont-texto-ribera{
         width: 100%;
@@ -500,137 +510,115 @@ nav ul{
         line-height: 1.5;
         border-radius: 30px;
         grid-area: textoRibera;
-        
-    
     }
 
 
 
+    #grid-container-vegetacion{
+        display: grid;
+        width: 90%;
+        height: 700px;
+        align-self: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
     
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#footer{
-    border-top: 5px solid rgb(170, 168, 168);
-
-    margin-top: 6%;
-    width: 100%;
-    height: 250px;
-    display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    grid-template-areas: 
-    'parques listado redes'
-    'copy copy copy';
-
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
-
-
-    color: rgb(170, 168, 168);
-
-}
-
-#contenedor__parques{
-    grid-area: parques;
-
-    margin-top: 2%;
-
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-#contenedor__footerlistado{
-    margin-top: 2%;
-
-    grid-area: listado;
-
-    display: flex;
-    justify-content: center;
-}
-
-#ul__footer{
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
     
-}
-
-.li__lifooter{
     
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#contenedor__redessociales{
-    grid-area: redes;
+        grid-template-areas: 
+        'vegetacion'
+        'textoVegetacion';
     
-    flex-direction: column;
+    }
+    
+    #cont-vegetacion{
+        grid-area: vegetacion ;
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 300px;
+    }
+    #cont-texto-vegetacion{
+        width: 100%;
+        height: 100%;
+        background-color: blanchedalmond;
+        line-height: 1.5;
+        border-radius: 30px;
+        grid-area: textoVegetacion;
+    }
+        
+   
+    
+
+    #cont-titulo-vegetacion{
+        margin-top: -35%;
+        margin-left: 10%;
+        
+    }
+
+
+
+
+    #grid-container-praderas{
+        display: grid;
+        width: 90%;
+        height: 1200px;
+        align-self: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; 
+    
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        
+    
+    
+    
+        grid-template-areas: 
+        'pradera'
+        'textoPraderas';
+    
+    }
+    
+    #cont-pradera{
+        grid-area: pradera ;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        width: 100%;
+        height: 300px;
+    }
+
+    #cont-texto-pradera{
+        width: 100%;
+        height: 100%;
+        background-color: blanchedalmond;
+        grid-area: textoPraderas;
+        line-height: 1.5;
+        border-radius: 30px;
+    }
+
+
+
+    #cont-titulo-pradera{
+        margin-top: -32%;
+        margin-left: 10%;
+        
+    }
 
 }
+    
+    
+    
 
-#h1_seg{
+    
 
-}
 
-#contenedor__fotosredes{
-    display: flex;
-    width: 12%;
-    margin-top: 1%;
-    margin-left: -2.3%;
-}
 
-.imagenes__redes{
-    width: 100%;
-}
+        
 
 
 
@@ -638,15 +626,210 @@ nav ul{
 
 
 
-#contenedor__copyright{
-    grid-area: copy;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-self: center;
-}
 
 
-#parrafo__copyright{
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #footer{
+        border-top: 3px solid rgb(170, 168, 168);
+    
+    
+    
+        margin-top: 200px;
+        width: 100%;
+        height: 220px;
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+        grid-template-areas: 
+        'parques listado redes'
+        'copy copy copy';
+    
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+    
+    
+        color: rgb(170, 168, 168);
+    
+    }
+    
+    #contenedor__parques{
+        grid-area: parques;
+    
+        margin-top: 3%;
+    
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #contenedor__footerlistado{
+        margin-top: 3%;
+        font-size: 17px;
+        grid-area: listado;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    #ul__footer{
+        
+    }
+    
+    .li__lifooter:hover{
+        font-size: 20px;
+    }
+    
+    .li__lifooter{
+        width: 20px;
+        height: 20px;
+    
+    
+        margin-left: -40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #contenedor__redessociales{
+        grid-area: redes;
+        margin-top: 2%;
+        flex-direction: column;
+    
+    }
+    
+    #h1_seg{
+    
+    }
+    
+    #contenedor__fotosredes{
+        display: flex;
+        width: 12%;
+        margin-top: 1%;
+        margin-left: -2.3%;
+    }
+    
+    .imagenes__redes{
+        width: 100%;
+    }
+    
+    
+    .imagenes__redes:hover{
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+    
+    
+    #contenedor__copyright{
+        grid-area: copy;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+    
+    
+    #parrafo__copyright{
+        font-size: 17px;
+    }
